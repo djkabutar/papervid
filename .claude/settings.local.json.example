@@ -1,0 +1,5 @@
+{
+  "env": {
+    "PAPERVID_PYTHON": "/path/to/your/env/bin/python"
+  }
+}

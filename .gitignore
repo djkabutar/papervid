@@ -1,0 +1,5 @@
+*__pycache__
+
+# local Python env and per-machine Claude settings
+.venv/
+.claude/settings.local.json

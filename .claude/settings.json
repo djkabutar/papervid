@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bin/py -m papervid.tools:*)",
+      "Bash(./bin/py -m papervid.tools:*)",
+      "Bash(ffprobe:*)",
+      "Read(./papervid_output/**)",
+      "Write(./papervid_output/**)",
+      "Edit(./papervid_output/**)"
+    ]
+  }
+}

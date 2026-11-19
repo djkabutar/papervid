@@ -1,0 +1,18 @@
+# papervid: research paper to animated video
+# Core dependencies
+
+rich>=15.0
+pypdf>=6.0
+pdf2image>=1.17
+requests>=2.31
+edge-tts>=7.3.1   # older versions get a 403 from the speech service
+pydantic>=2.0
+pydub>=0.25
+
+# Manim (animation engine)
+manim>=0.20
+
+# System dependencies (not pip):
+#   - ffmpeg (already installed)
+#   - poppler-utils (for pdf2image: pdftoppm/pdftocairo)
+#     Install with: sudo apt install poppler-utils
